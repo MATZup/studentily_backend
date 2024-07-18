@@ -19,7 +19,7 @@ const port = process.env.PORT || 8000;
 server.use(express.json());
 server.use(
   cors({
-    origin: ["https://studentily-frontend.onrender.com"],
+    origin: ["https://studentily.com"],
     credentials: true,
   })
 );
