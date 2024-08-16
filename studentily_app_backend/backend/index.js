@@ -23,7 +23,6 @@ server.use(
     credentials: true,
   })
 );
-// server.use(helper);
 
 server.get("/", (req, res) => {
   res.send("läuft ok");
